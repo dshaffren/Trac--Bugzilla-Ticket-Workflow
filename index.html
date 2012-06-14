@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <title>Trac--bugzilla-ticket-workflow by dshaffren</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Trac--bugzilla-ticket-workflow</h1>
+        <h2>a bugzilla workflow -- for Trac!</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/dshaffren/Trac--Bugzilla-Ticket-Workflow/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/dshaffren/Trac--Bugzilla-Ticket-Workflow/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/dshaffren/Trac--Bugzilla-Ticket-Workflow" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <p>Bugzilla ticket workflow for Trac.</p>
+
+<p>see: <a href="http://www.bugzilla.org/docs/2.18/html/lifecycle.html">http://www.bugzilla.org/docs/2.18/html/lifecycle.html</a></p>
+
+<p>Use trac-admin to add the 'remind' and 'later' resolutions.</p>
+
+<pre><code>Trac [/var/lib/trac/project]&gt; resolution add remind
+Trac [/var/lib/trac/project]&gt; resolution add later
+Trac [/var/lib/trac/project]&gt; resolution list
+
+Possible Values
+---------------
+fixed          
+invalid        
+wontfix        
+duplicate      
+worksforme     
+remind         
+later          
+</code></pre>
+      </section>
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-23415958-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
